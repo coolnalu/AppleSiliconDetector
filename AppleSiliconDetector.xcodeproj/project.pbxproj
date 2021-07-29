@@ -13,6 +13,8 @@
 		A1815F1B26B0C88600065C9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1815F0626B0C88500065C9D /* ContentView.swift */; };
 		A1815F1C26B0C88600065C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1815F0726B0C88600065C9D /* Assets.xcassets */; };
 		A1815F1D26B0C88600065C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1815F0726B0C88600065C9D /* Assets.xcassets */; };
+		A1815F2726B0D56600065C9D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1815F2626B0D56600065C9D /* ListView.swift */; };
+		A1815F2826B0D56600065C9D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1815F2626B0D56600065C9D /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		A1815F1426B0C88600065C9D /* AppleSiliconDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSiliconDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1815F1626B0C88600065C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1815F1726B0C88600065C9D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A1815F2626B0D56600065C9D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				A1815F0526B0C88500065C9D /* AppleSiliconDetectorApp.swift */,
 				A1815F0626B0C88500065C9D /* ContentView.swift */,
 				A1815F0726B0C88600065C9D /* Assets.xcassets */,
+				A1815F2626B0D56600065C9D /* ListView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 			files = (
 				A1815F1A26B0C88600065C9D /* ContentView.swift in Sources */,
 				A1815F1826B0C88600065C9D /* AppleSiliconDetectorApp.swift in Sources */,
+				A1815F2726B0D56600065C9D /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				A1815F1B26B0C88600065C9D /* ContentView.swift in Sources */,
 				A1815F1926B0C88600065C9D /* AppleSiliconDetectorApp.swift in Sources */,
+				A1815F2826B0D56600065C9D /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

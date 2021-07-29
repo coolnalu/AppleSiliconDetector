@@ -1,21 +1,21 @@
-//
-//  ContentView.swift
-//  Shared
-//
-//  Created by Terry on 7/27/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+  var app: RunningApplication
+  func download() {
+    
+  }
+  
+  var body: some View {
+    HStack(spacing: 8) {
+      Image(nsImage: app.appImage)
+      Text(app.appName).frame(alignment: .leading)
+      Spacer()
+      Text(app.architecture)
+      if (app.architecture != "arm64 • Apple Silicon") {
+        Button("Download", action: download)
+      }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+    .frame(maxWidth: .infinity, alignment: .leading)
+  }
 }
